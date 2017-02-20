@@ -1,0 +1,6 @@
+web:
+  image: php7-control
+  ports:
+  - "8090:80"
+  volumes:
+  - /var/www/html/control/:/var/www/html/control/
